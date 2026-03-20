@@ -1,0 +1,31 @@
+# Environment variables - NEVER upload this
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pythonlibs/
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# Node
+node_modules/
+.upm/
+
+# Replit specific
+.replit
+replit.md
+.replitignore
+.agents/
+
+# Cache
+.cache/
+.local/
+
+# Locks (optional)
+pnpm-lock.yaml
+uv.lock
